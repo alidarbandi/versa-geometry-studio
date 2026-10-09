@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "versa-geometry-studio"
+version = "1.0.0"
+description = "Offline two-stage X-ray microscopy geometry planner"
+requires-python = ">=3.10"
+dependencies = ["PySide6==6.11.1", "numpy==2.2.6"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "pyinstaller==6.22.3"]
+
+[project.scripts]
+versa-geometry-studio = "versa_geometry_studio.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["versa_geometry_studio*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+

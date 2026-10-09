@@ -1,0 +1,338 @@
+{
+  "format": "versa-instrument-profile",
+  "schema_version": 1,
+  "profile": {
+    "name": "ZEISS Versa — 2048 × 2048, 13.5 µm, 0.4×",
+    "selected_objective": "0.4×",
+    "objectives": {
+      "0.4×": {
+        "detector": {
+          "nx": 2048,
+          "ny": 2048,
+          "pitch_um": 13.5,
+          "optical_m": 0.4,
+          "binning": 1,
+          "usable_nx": null,
+          "usable_ny": null,
+          "image_circle_mm": null,
+          "crop_nx": null,
+          "crop_ny": null,
+          "flip_y": false,
+          "flip_z": false,
+          "provenance": {
+            "nx": {
+              "value": 2048,
+              "units": "pixels",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "ny": {
+              "value": 2048,
+              "units": "pixels",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "pitch_um": {
+              "value": 13.5,
+              "units": "µm",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "optical_m": {
+              "value": 0.4,
+              "units": "×",
+              "origin": "nominal",
+              "confirmed": false,
+              "source": "",
+              "version": "",
+              "date": ""
+            }
+          }
+        },
+        "availability": "unconfigured",
+        "bounds": {},
+        "notes": "Nominal optical scale; confirm installed configuration."
+      },
+      "4×": {
+        "detector": {
+          "nx": 2048,
+          "ny": 2048,
+          "pitch_um": 13.5,
+          "optical_m": 4,
+          "binning": 1,
+          "usable_nx": null,
+          "usable_ny": null,
+          "image_circle_mm": null,
+          "crop_nx": null,
+          "crop_ny": null,
+          "flip_y": false,
+          "flip_z": false,
+          "provenance": {
+            "nx": {
+              "value": 2048,
+              "units": "pixels",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "ny": {
+              "value": 2048,
+              "units": "pixels",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "pitch_um": {
+              "value": 13.5,
+              "units": "µm",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "optical_m": {
+              "value": 4,
+              "units": "×",
+              "origin": "nominal",
+              "confirmed": false,
+              "source": "",
+              "version": "",
+              "date": ""
+            }
+          }
+        },
+        "availability": "unconfigured",
+        "bounds": {},
+        "notes": "Nominal optical scale; confirm installed configuration."
+      },
+      "20×": {
+        "detector": {
+          "nx": 2048,
+          "ny": 2048,
+          "pitch_um": 13.5,
+          "optical_m": 20,
+          "binning": 1,
+          "usable_nx": null,
+          "usable_ny": null,
+          "image_circle_mm": null,
+          "crop_nx": null,
+          "crop_ny": null,
+          "flip_y": false,
+          "flip_z": false,
+          "provenance": {
+            "nx": {
+              "value": 2048,
+              "units": "pixels",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "ny": {
+              "value": 2048,
+              "units": "pixels",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "pitch_um": {
+              "value": 13.5,
+              "units": "µm",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "optical_m": {
+              "value": 20,
+              "units": "×",
+              "origin": "nominal",
+              "confirmed": false,
+              "source": "",
+              "version": "",
+              "date": ""
+            }
+          }
+        },
+        "availability": "unconfigured",
+        "bounds": {},
+        "notes": "Nominal optical scale; confirm installed configuration."
+      },
+      "40×": {
+        "detector": {
+          "nx": 2048,
+          "ny": 2048,
+          "pitch_um": 13.5,
+          "optical_m": 40,
+          "binning": 1,
+          "usable_nx": null,
+          "usable_ny": null,
+          "image_circle_mm": null,
+          "crop_nx": null,
+          "crop_ny": null,
+          "flip_y": false,
+          "flip_z": false,
+          "provenance": {
+            "nx": {
+              "value": 2048,
+              "units": "pixels",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "ny": {
+              "value": 2048,
+              "units": "pixels",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "pitch_um": {
+              "value": 13.5,
+              "units": "µm",
+              "origin": "reference",
+              "confirmed": false,
+              "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+              "version": "v11.x, Table H-6",
+              "date": ""
+            },
+            "optical_m": {
+              "value": 40,
+              "units": "×",
+              "origin": "nominal",
+              "confirmed": false,
+              "source": "",
+              "version": "",
+              "date": ""
+            }
+          }
+        },
+        "availability": "unconfigured",
+        "bounds": {},
+        "notes": "Nominal optical scale; confirm installed configuration."
+      }
+    },
+    "bounds": {
+      "a_min": {
+        "value": null,
+        "units": "mm",
+        "origin": "user supplied",
+        "confirmed": false,
+        "source": "",
+        "version": "",
+        "date": ""
+      },
+      "a_max": {
+        "value": null,
+        "units": "mm",
+        "origin": "user supplied",
+        "confirmed": false,
+        "source": "",
+        "version": "",
+        "date": ""
+      },
+      "b_min": {
+        "value": null,
+        "units": "mm",
+        "origin": "user supplied",
+        "confirmed": false,
+        "source": "",
+        "version": "",
+        "date": ""
+      },
+      "b_max": {
+        "value": null,
+        "units": "mm",
+        "origin": "user supplied",
+        "confirmed": false,
+        "source": "",
+        "version": "",
+        "date": ""
+      },
+      "D_min": {
+        "value": null,
+        "units": "mm",
+        "origin": "user supplied",
+        "confirmed": false,
+        "source": "",
+        "version": "",
+        "date": ""
+      },
+      "D_max": {
+        "value": null,
+        "units": "mm",
+        "origin": "user supplied",
+        "confirmed": false,
+        "source": "",
+        "version": "",
+        "date": ""
+      },
+      "source_clearance": {
+        "value": null,
+        "units": "mm",
+        "origin": "user supplied",
+        "confirmed": false,
+        "source": "",
+        "version": "",
+        "date": ""
+      },
+      "detector_clearance": {
+        "value": null,
+        "units": "mm",
+        "origin": "user supplied",
+        "confirmed": false,
+        "source": "",
+        "version": "",
+        "date": ""
+      }
+    },
+    "mapping": {
+      "verified": false,
+      "coeff_a": null,
+      "coeff_b": null,
+      "offset_mm": null,
+      "source": ""
+    },
+    "legacy_stage_min": {
+      "value": 135.0,
+      "units": "mm",
+      "origin": "reference",
+      "confirmed": false,
+      "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+      "version": "v11.x, Table 2-3 (0.4× only)",
+      "date": ""
+    },
+    "focal_spot_um": {
+      "value": null,
+      "units": "µm",
+      "origin": "user supplied",
+      "confirmed": false,
+      "source": "",
+      "version": "",
+      "date": ""
+    },
+    "notes": "Model demonstration. Hardware travel and clearances are unconfigured. Legacy manual values require local confirmation; stage coordinates are not physical distances."
+  }
+}

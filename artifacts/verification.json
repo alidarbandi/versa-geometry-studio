@@ -1,0 +1,46 @@
+{
+  "python": "3.12.13 (main, Apr 14 2026, 14:31:26) [MSC v.1944 64 bit (AMD64)]",
+  "PySide6": "6.11.1",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "screen_device_pixel_ratio": 1.0,
+  "native_gui": true,
+  "logical_viewport_sizes": [
+    [
+      1366,
+      768
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "geometry_update_and_event_processing_ms_median": 19.128799438476562,
+  "geometry_update_and_event_processing_ms_p95": 20.596044417470694,
+  "isolated_projection_render_ms": {
+    "256": [
+      23.484298959374428,
+      21.710099652409554,
+      21.58310078084469
+    ],
+    "512": [
+      100.29909946024418,
+      99.575599655509,
+      99.01740029454231
+    ]
+  },
+  "checks": [
+    "slider synchronization",
+    "magnification lock",
+    "separation lock",
+    "solve/apply",
+    "infeasibility explanation",
+    "plan save/load",
+    "PNG/SVG geometry export",
+    "raw/annotated detector export",
+    "CSV/JSON/Markdown export",
+    "rotation and interior ROI",
+    "asynchronous sampled sweep",
+    "dark/light themes"
+  ]
+}

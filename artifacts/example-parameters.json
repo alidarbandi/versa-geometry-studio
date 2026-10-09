@@ -1,0 +1,968 @@
+{
+  "units": {
+    "geometry": "mm",
+    "trigonometry": "rad",
+    "display_angles": "degrees",
+    "pitch_um": "µm",
+    "sampling_um": "µm/pixel",
+    "attenuation": "mm^-1",
+    "optical_m": "dimensionless",
+    "counts": "pixels",
+    "rotation_deg": "degrees"
+  },
+  "parameters": [
+    {
+      "parameter": "a_mm",
+      "value": 205.0,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "b_mm",
+      "value": 267.32,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "D_mm",
+      "value": 472.32,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "geometrical_m",
+      "value": 2.3040000000000003,
+      "units": "dimensionless",
+      "role": "derived"
+    },
+    {
+      "parameter": "total_m",
+      "value": 0.9216000000000002,
+      "units": "dimensionless",
+      "role": "derived"
+    },
+    {
+      "parameter": "camera_x_mm",
+      "value": 27.648,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "camera_y_mm",
+      "value": 27.648,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "scintillator_x_mm",
+      "value": 69.11999999999999,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "scintillator_y_mm",
+      "value": 69.11999999999999,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_scintillator_x_mm",
+      "value": 69.11999999999999,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_scintillator_y_mm",
+      "value": 69.11999999999999,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "output_nx",
+      "value": 2048,
+      "units": "pixels",
+      "role": "derived"
+    },
+    {
+      "parameter": "output_ny",
+      "value": 2048,
+      "units": "pixels",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_nx",
+      "value": 2048,
+      "units": "pixels",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_ny",
+      "value": 2048,
+      "units": "pixels",
+      "role": "derived"
+    },
+    {
+      "parameter": "sampling_um",
+      "value": 14.648437499999996,
+      "units": "µm/pixel",
+      "role": "derived"
+    },
+    {
+      "parameter": "fov_x_mm",
+      "value": 29.999999999999993,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "fov_y_mm",
+      "value": 29.999999999999993,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_fov_x_mm",
+      "value": 29.999999999999993,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_fov_y_mm",
+      "value": 29.999999999999993,
+      "units": "mm",
+      "role": "derived"
+    },
+    {
+      "parameter": "half_angles_rad.horizontal",
+      "value": 0.07304056530311932,
+      "units": "rad",
+      "role": "derived"
+    },
+    {
+      "parameter": "full_angles_deg.horizontal",
+      "value": 8.369832250236831,
+      "units": "degrees",
+      "role": "derived"
+    },
+    {
+      "parameter": "half_angles_rad.vertical",
+      "value": 0.07304056530311932,
+      "units": "rad",
+      "role": "derived"
+    },
+    {
+      "parameter": "full_angles_deg.vertical",
+      "value": 8.369832250236831,
+      "units": "degrees",
+      "role": "derived"
+    },
+    {
+      "parameter": "half_angles_rad.diagonal",
+      "value": 0.10311204796392184,
+      "units": "rad",
+      "role": "derived"
+    },
+    {
+      "parameter": "full_angles_deg.diagonal",
+      "value": 11.81577033056647,
+      "units": "degrees",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_half_angles_rad.horizontal",
+      "value": 0.07304056530311932,
+      "units": "rad",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_full_angles_deg.horizontal",
+      "value": 8.369832250236831,
+      "units": "degrees",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_half_angles_rad.vertical",
+      "value": 0.07304056530311932,
+      "units": "rad",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_full_angles_deg.vertical",
+      "value": 8.369832250236831,
+      "units": "degrees",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_half_angles_rad.diagonal",
+      "value": 0.10311204796392184,
+      "units": "rad",
+      "role": "derived"
+    },
+    {
+      "parameter": "crop_full_angles_deg.diagonal",
+      "value": 11.81577033056647,
+      "units": "degrees",
+      "role": "derived"
+    },
+    {
+      "parameter": "detector.nx",
+      "value": 2048,
+      "units": "pixels",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.ny",
+      "value": 2048,
+      "units": "pixels",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.pitch_um",
+      "value": 13.5,
+      "units": "µm",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.optical_m",
+      "value": 0.4,
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.binning",
+      "value": 1,
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.usable_nx",
+      "value": "unconfigured",
+      "units": "pixels",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.usable_ny",
+      "value": "unconfigured",
+      "units": "pixels",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.image_circle_mm",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.crop_nx",
+      "value": "unconfigured",
+      "units": "pixels",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.crop_ny",
+      "value": "unconfigured",
+      "units": "pixels",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.flip_y",
+      "value": false,
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "detector.flip_z",
+      "value": false,
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "requirements.sampling_um",
+      "value": 14.6484375,
+      "units": "µm",
+      "role": "input"
+    },
+    {
+      "parameter": "requirements.sampling_mode",
+      "value": "exact",
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "requirements.fov_x_mm",
+      "value": 30.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "requirements.fov_y_mm",
+      "value": 30.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "requirements.margin_mm",
+      "value": 0.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "requirements.fixed_kind",
+      "value": "none",
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "requirements.fixed_mm",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "requirements.goal",
+      "value": "minimum separation",
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "angle.limit_deg",
+      "value": 12.0,
+      "units": "degrees",
+      "role": "input"
+    },
+    {
+      "parameter": "angle.axis",
+      "value": "diagonal",
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "angle.convention",
+      "value": "full",
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "angle.envelope",
+      "value": "active",
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "angle.strict",
+      "value": true,
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "angle.buffer_deg",
+      "value": 0.02,
+      "units": "degrees",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.shape",
+      "value": "cuboid",
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.width_mm",
+      "value": 28.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.height_mm",
+      "value": 28.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.depth_mm",
+      "value": 5.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.offset_x_mm",
+      "value": 0.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.offset_y_mm",
+      "value": 0.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.offset_z_mm",
+      "value": 0.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.rotation_deg",
+      "value": 0.0,
+      "units": "degrees",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.mu_mm_inv",
+      "value": 0.055,
+      "units": "mm^-1",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.inclusion_mu_mm_inv",
+      "value": 0.22,
+      "units": "mm^-1",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.roi_width_mm",
+      "value": 10.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.roi_height_mm",
+      "value": 10.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.roi_depth_mm",
+      "value": 3.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.roi_enabled",
+      "value": false,
+      "units": "dimensionless",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.roi_offset_x_mm",
+      "value": 0.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.roi_offset_y_mm",
+      "value": 0.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "phantom.roi_offset_z_mm",
+      "value": 0.0,
+      "units": "mm",
+      "role": "input"
+    },
+    {
+      "parameter": "profile.a_min",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "user supplied; confirmed=False;   "
+    },
+    {
+      "parameter": "profile.a_max",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "user supplied; confirmed=False;   "
+    },
+    {
+      "parameter": "profile.b_min",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "user supplied; confirmed=False;   "
+    },
+    {
+      "parameter": "profile.b_max",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "user supplied; confirmed=False;   "
+    },
+    {
+      "parameter": "profile.D_min",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "user supplied; confirmed=False;   "
+    },
+    {
+      "parameter": "profile.D_max",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "user supplied; confirmed=False;   "
+    },
+    {
+      "parameter": "profile.source_clearance",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "user supplied; confirmed=False;   "
+    },
+    {
+      "parameter": "profile.detector_clearance",
+      "value": "unconfigured",
+      "units": "mm",
+      "role": "user supplied; confirmed=False;   "
+    },
+    {
+      "parameter": "profile.name",
+      "value": "ZEISS Versa — 2048 × 2048, 13.5 µm, 0.4×",
+      "units": "text",
+      "role": "input"
+    },
+    {
+      "parameter": "profile.objective",
+      "value": "0.4×",
+      "units": "text",
+      "role": "input"
+    },
+    {
+      "parameter": "profile.legacy_stage_min",
+      "value": 135.0,
+      "units": "mm",
+      "role": "legacy reference, stage coordinates; confirmed=False"
+    },
+    {
+      "parameter": "profile.mapping_verified",
+      "value": false,
+      "units": "dimensionless",
+      "role": "calibration"
+    },
+    {
+      "parameter": "mode",
+      "value": "Explore geometry",
+      "units": "text",
+      "role": "input"
+    }
+  ],
+  "plan": {
+    "format": "versa-geometry-plan",
+    "schema_version": 1,
+    "units": {
+      "geometry": "mm",
+      "trigonometry": "rad",
+      "display_angles": "degrees",
+      "pitch_um": "µm",
+      "sampling_um": "µm/pixel",
+      "attenuation": "mm^-1",
+      "optical_m": "dimensionless",
+      "counts": "pixels",
+      "rotation_deg": "degrees"
+    },
+    "state": {
+      "geometry": {
+        "a_mm": 205.0,
+        "b_mm": 267.32
+      },
+      "profile": {
+        "name": "ZEISS Versa — 2048 × 2048, 13.5 µm, 0.4×",
+        "selected_objective": "0.4×",
+        "objectives": {
+          "0.4×": {
+            "detector": {
+              "nx": 2048,
+              "ny": 2048,
+              "pitch_um": 13.5,
+              "optical_m": 0.4,
+              "binning": 1,
+              "usable_nx": null,
+              "usable_ny": null,
+              "image_circle_mm": null,
+              "crop_nx": null,
+              "crop_ny": null,
+              "flip_y": false,
+              "flip_z": false,
+              "provenance": {
+                "nx": {
+                  "value": 2048,
+                  "units": "pixels",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "ny": {
+                  "value": 2048,
+                  "units": "pixels",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "pitch_um": {
+                  "value": 13.5,
+                  "units": "µm",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "optical_m": {
+                  "value": 0.4,
+                  "units": "×",
+                  "origin": "nominal",
+                  "confirmed": false,
+                  "source": "",
+                  "version": "",
+                  "date": ""
+                }
+              }
+            },
+            "availability": "unconfigured",
+            "bounds": {},
+            "notes": "Nominal optical scale; confirm installed configuration."
+          },
+          "4×": {
+            "detector": {
+              "nx": 2048,
+              "ny": 2048,
+              "pitch_um": 13.5,
+              "optical_m": 4,
+              "binning": 1,
+              "usable_nx": null,
+              "usable_ny": null,
+              "image_circle_mm": null,
+              "crop_nx": null,
+              "crop_ny": null,
+              "flip_y": false,
+              "flip_z": false,
+              "provenance": {
+                "nx": {
+                  "value": 2048,
+                  "units": "pixels",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "ny": {
+                  "value": 2048,
+                  "units": "pixels",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "pitch_um": {
+                  "value": 13.5,
+                  "units": "µm",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "optical_m": {
+                  "value": 4,
+                  "units": "×",
+                  "origin": "nominal",
+                  "confirmed": false,
+                  "source": "",
+                  "version": "",
+                  "date": ""
+                }
+              }
+            },
+            "availability": "unconfigured",
+            "bounds": {},
+            "notes": "Nominal optical scale; confirm installed configuration."
+          },
+          "20×": {
+            "detector": {
+              "nx": 2048,
+              "ny": 2048,
+              "pitch_um": 13.5,
+              "optical_m": 20,
+              "binning": 1,
+              "usable_nx": null,
+              "usable_ny": null,
+              "image_circle_mm": null,
+              "crop_nx": null,
+              "crop_ny": null,
+              "flip_y": false,
+              "flip_z": false,
+              "provenance": {
+                "nx": {
+                  "value": 2048,
+                  "units": "pixels",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "ny": {
+                  "value": 2048,
+                  "units": "pixels",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "pitch_um": {
+                  "value": 13.5,
+                  "units": "µm",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "optical_m": {
+                  "value": 20,
+                  "units": "×",
+                  "origin": "nominal",
+                  "confirmed": false,
+                  "source": "",
+                  "version": "",
+                  "date": ""
+                }
+              }
+            },
+            "availability": "unconfigured",
+            "bounds": {},
+            "notes": "Nominal optical scale; confirm installed configuration."
+          },
+          "40×": {
+            "detector": {
+              "nx": 2048,
+              "ny": 2048,
+              "pitch_um": 13.5,
+              "optical_m": 40,
+              "binning": 1,
+              "usable_nx": null,
+              "usable_ny": null,
+              "image_circle_mm": null,
+              "crop_nx": null,
+              "crop_ny": null,
+              "flip_y": false,
+              "flip_z": false,
+              "provenance": {
+                "nx": {
+                  "value": 2048,
+                  "units": "pixels",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "ny": {
+                  "value": 2048,
+                  "units": "pixels",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "pitch_um": {
+                  "value": 13.5,
+                  "units": "µm",
+                  "origin": "reference",
+                  "confirmed": false,
+                  "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+                  "version": "v11.x, Table H-6",
+                  "date": ""
+                },
+                "optical_m": {
+                  "value": 40,
+                  "units": "×",
+                  "origin": "nominal",
+                  "confirmed": false,
+                  "source": "",
+                  "version": "",
+                  "date": ""
+                }
+              }
+            },
+            "availability": "unconfigured",
+            "bounds": {},
+            "notes": "Nominal optical scale; confirm installed configuration."
+          }
+        },
+        "bounds": {
+          "a_min": {
+            "value": null,
+            "units": "mm",
+            "origin": "user supplied",
+            "confirmed": false,
+            "source": "",
+            "version": "",
+            "date": ""
+          },
+          "a_max": {
+            "value": null,
+            "units": "mm",
+            "origin": "user supplied",
+            "confirmed": false,
+            "source": "",
+            "version": "",
+            "date": ""
+          },
+          "b_min": {
+            "value": null,
+            "units": "mm",
+            "origin": "user supplied",
+            "confirmed": false,
+            "source": "",
+            "version": "",
+            "date": ""
+          },
+          "b_max": {
+            "value": null,
+            "units": "mm",
+            "origin": "user supplied",
+            "confirmed": false,
+            "source": "",
+            "version": "",
+            "date": ""
+          },
+          "D_min": {
+            "value": null,
+            "units": "mm",
+            "origin": "user supplied",
+            "confirmed": false,
+            "source": "",
+            "version": "",
+            "date": ""
+          },
+          "D_max": {
+            "value": null,
+            "units": "mm",
+            "origin": "user supplied",
+            "confirmed": false,
+            "source": "",
+            "version": "",
+            "date": ""
+          },
+          "source_clearance": {
+            "value": null,
+            "units": "mm",
+            "origin": "user supplied",
+            "confirmed": false,
+            "source": "",
+            "version": "",
+            "date": ""
+          },
+          "detector_clearance": {
+            "value": null,
+            "units": "mm",
+            "origin": "user supplied",
+            "confirmed": false,
+            "source": "",
+            "version": "",
+            "date": ""
+          }
+        },
+        "mapping": {
+          "verified": false,
+          "coeff_a": null,
+          "coeff_b": null,
+          "offset_mm": null,
+          "source": ""
+        },
+        "legacy_stage_min": {
+          "value": 135.0,
+          "units": "mm",
+          "origin": "reference",
+          "confirmed": false,
+          "source": "https://www.physics.purdue.edu/xrm/new-users/training/Xradia_Versa_Users_Guide_v11x_510.pdf",
+          "version": "v11.x, Table 2-3 (0.4× only)",
+          "date": ""
+        },
+        "focal_spot_um": {
+          "value": null,
+          "units": "µm",
+          "origin": "user supplied",
+          "confirmed": false,
+          "source": "",
+          "version": "",
+          "date": ""
+        },
+        "notes": "Model demonstration. Hardware travel and clearances are unconfigured. Legacy manual values require local confirmation; stage coordinates are not physical distances."
+      },
+      "requirements": {
+        "sampling_um": 14.6484375,
+        "sampling_mode": "exact",
+        "fov_x_mm": 30.0,
+        "fov_y_mm": 30.0,
+        "margin_mm": 0.0,
+        "fixed_kind": "none",
+        "fixed_mm": null,
+        "goal": "minimum separation"
+      },
+      "angle": {
+        "limit_deg": 12.0,
+        "axis": "diagonal",
+        "convention": "full",
+        "envelope": "active",
+        "strict": true,
+        "buffer_deg": 0.02
+      },
+      "phantom": {
+        "shape": "cuboid",
+        "width_mm": 28.0,
+        "height_mm": 28.0,
+        "depth_mm": 5.0,
+        "offset_x_mm": 0.0,
+        "offset_y_mm": 0.0,
+        "offset_z_mm": 0.0,
+        "rotation_deg": 0.0,
+        "mu_mm_inv": 0.055,
+        "inclusion_mu_mm_inv": 0.22,
+        "roi_width_mm": 10.0,
+        "roi_height_mm": 10.0,
+        "roi_depth_mm": 3.0,
+        "roi_enabled": false,
+        "roi_offset_x_mm": 0.0,
+        "roi_offset_y_mm": 0.0,
+        "roi_offset_z_mm": 0.0
+      },
+      "mode": "Explore geometry"
+    },
+    "computed_results": {
+      "a_mm": 205.0,
+      "b_mm": 267.32,
+      "D_mm": 472.32,
+      "geometrical_m": 2.3040000000000003,
+      "total_m": 0.9216000000000002,
+      "camera_x_mm": 27.648,
+      "camera_y_mm": 27.648,
+      "scintillator_x_mm": 69.11999999999999,
+      "scintillator_y_mm": 69.11999999999999,
+      "crop_scintillator_x_mm": 69.11999999999999,
+      "crop_scintillator_y_mm": 69.11999999999999,
+      "output_nx": 2048,
+      "output_ny": 2048,
+      "crop_nx": 2048,
+      "crop_ny": 2048,
+      "sampling_um": 14.648437499999996,
+      "fov_x_mm": 29.999999999999993,
+      "fov_y_mm": 29.999999999999993,
+      "crop_fov_x_mm": 29.999999999999993,
+      "crop_fov_y_mm": 29.999999999999993,
+      "half_angles_rad": [
+        0.07304056530311932,
+        0.07304056530311932,
+        0.10311204796392184
+      ],
+      "crop_half_angles_rad": [
+        0.07304056530311932,
+        0.07304056530311932,
+        0.10311204796392184
+      ]
+    }
+  }
+}
